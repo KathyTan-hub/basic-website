@@ -6,28 +6,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/normalize.css">
-    <title>Harry Potter and the Philosopher's Stone</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Harry Potter Series</title>
     <link rel="icon" type="image/x-icon" href="../images/icon.ico">
 </head>
 
 <body>
     <header>
+        <div class="head-container">
+            <div id="logo">
+                <img src="../images/logo.jpg" alt="Harry Potter Logo" />
+            </div>
+            <div id="title">Harry Potter Series</div>
+        </div>
     </header>
 
     <nav>
+        <!-- First level UL for the main -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Image</a></li>
+            <li><a href="#">Video</a></li>
+            <li>
+                <a href="#">Table</a>
+                <!-- Second level UL for the sub menu -->
+                <ul>
+                    <li><a href="#">Books Sales</li></a>
+                    <li><a href="#">Movies Box Office</li></a>
+                </ul>
+            </li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
     </nav>
 
-    <menu>
-    </menu>
+    <div class="grid-container">
+        <menu>
+            <div class="thumbnail">
+                <figure>
+                    <a target="" href="#">
+                        <img src="../thumbnails/harry.jpg" alt="Harry Potter Picture">
+                    </a>
+                    <figcaption>Home</figcaption>
+                </figure>
+                <figure>
+                    <a target="" href="#">
+                        <img src="../thumbnails/magic_book.jpg" alt="Magic Book Picture">
+                    </a>
+                    <figcaption>Image</figcaption>
+                </figure>
+                <figure>
+                    <a target="" href="#">
+                        <img src="../thumbnails/dragon.jpg" alt="Fire Dragon Picture">
+                    </a>
+                    <figcaption>Video</figcaption>
+                </figure>
+                <figure>
+                    <a target="" href="#">
+                        <img src="../thumbnails/car.jpg" alt="Crashed Car Picture">
+                    </a>
+                    <figcaption>Table</figcaption>
+                </figure>
+                <figure>
+                    <a target="" href="#">
+                        <img src="../thumbnails/train.jpg" alt="A Moving Train on Rails Picture">
+                    </a>
+                    <figcaption>Feedback</figcaption>
+                </figure>
+            </div>
+        </menu>
 
-    <main>
-    </main>
+        <main>
+        </main>
 
-    <aside>
-    </aside>
+        <aside class="sidebar">
+            <h3>The Most Popular Harry Potter Book </br>
+                (According to Sales)
+            </h3>
+            <ul>
+                <li><a href="">Harry Potter And The Sorcerer's Stone</br>120 Million</a></li>
+                <li><a href="">Harry Potter And The Chamber Of Secrets </br> 77 Million </a></li>
+                <li><a href="">Harry Potter And The Deathly Hallows </br> 65 Million</a></li>
+                <li><a href="">Harry Potter And The Half Blood Prince </br> 65 Million</a></li>
+                <li><a href="">Harry Potter And The Order Of The Phoenix </br> 65 Million</a></li>
+                <li><a href="">Harry Potter And The Goblet Of Fire </br> 65 Million</a></li>
+                <li><a href="">Harry Potter And The Prisoner Of Azkaban </br> 65 Million</a></li>
+            </ul>
+        </aside>
 
-    <footer>
-    </footer>
+        <footer>
+            &copy; Copyright Suju Karen Tan, 2022
+        </footer>
+    </div>
 </body>
 
 </html>
