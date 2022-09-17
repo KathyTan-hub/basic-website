@@ -1,0 +1,24 @@
+.magic {
+  position: relative;
+  text-align: center;
+}
+
+.magic h2 {
+  font-size: 2em;
+  color: #fc7605;
+  margin: 10px;
+}
+
+.magic figure {
+  margin: 0;
+  position: relative;
+}
+
+.magictext {
+  position: absolute;
+  padding: 10px; /* add some padding */
+  font-family: sans-serif; /* make the font appear in sans-serif */
+  font-weight: bold; /* make the text bold */
+  text-align: justify;
+}
+
