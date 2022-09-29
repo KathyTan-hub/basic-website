@@ -1,0 +1,42 @@
+.video {
+  margin: 0; /* to remove the default margin */
+  position: relative; /* to make the figure as the containing element of figcaption */
+  border: 2px solid #823c80;
+  margin: 10px auto;
+}
+
+.video video {
+  display: block; /* to remove any extra spacing */
+  max-width: 100%;
+  height: auto;
+  border: 5px outset #f2c94e;
+  padding: 5px;
+}
+
+.video h2 {
+  text-align: center;
+  color: #800d29;
+  font-family: sans-serif;
+}
+
+.video figcaption {
+  color: #fc7605;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1% 2%;
+  text-align: center;
+}
+
+.magictext {
+  position: absolute;
+  padding: 5px 10px; /* add some padding */
+  font-family: sans-serif; /* make the font appear in sans-serif */
+  font-weight: bold; /* make the text bold */
+  text-align: justify;
+  color: #2b0721;
+}
+
+.sidebar {
+  font-size: 15px;
+}
