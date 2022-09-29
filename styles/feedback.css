@@ -1,0 +1,61 @@
+.sidebar form {
+  background-color: #823c80;
+  margin: 10px 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: white;
+}
+
+fieldset legend {
+  color: yellow;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px 10px;
+}
+
+.field {
+  margin: 10px 0px;
+}
+
+.field label {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sidebar fieldset {
+  border: 2px solid #f7e7d9;
+}
+
+.reset {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.reset button {
+  border: 2px solid yellowgreen;
+  background-color: yellow;
+  color: #823c80;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.visitContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.magic h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.magic form {
+  width: 80%;
+  margin: 10px auto;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.magic legend {
+  color: #823c80;
+}
