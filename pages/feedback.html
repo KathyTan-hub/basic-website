@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/feedback.css">
+    <title>Harry Potter Series</title>
+    <link rel="icon" type="image/x-icon" href="../images/icon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="head-container">
+            <div id="logo">
+                <img src="../images/logo.jpg" alt="Harry Potter Logo" />
+            </div>
+            <div id="title">Harry Potter Series</div>
+        </div>
+    </header>
+
+    <nav>
+        <!-- First level UL for the main -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="image.html">Image</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li>
+                <a href="tableBook.html">Table</a>
+                <!-- Second level UL for the sub menu -->
+                <ul>
+                    <li><a href="tableBook.html">Books Sales</li></a>
+                    <li><a href="tableMovie.html">Movies Box Office</li></a>
+                </ul>
+            </li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <div class="grid-container">
+        <menu>
+            <div class="thumbnail">
+                <figure>
+                    <a target="" href="index.html">
+                        <img src="../thumbnails/harry.jpg" alt="Harry Potter Picture">
+                    </a>
+                    <figcaption>Home</figcaption>
+                </figure>
+                <figure>
+                    <a target="" href="image.html">
+                        <img src="../thumbnails/magic_book.jpg" alt="Magic Book Picture">
+                    </a>
+                    <figcaption>Image</figcaption>
+                </figure>
+                <figure>
+                    <a target="" href="video.html">
+                        <img src="../thumbnails/dragon.jpg" alt="Fire Dragon Picture">
+                    </a>
+                    <figcaption>Video</figcaption>
+                </figure>
+                <figure>
+                    <a target="" href="tableBook.html">
+                        <img src="../thumbnails/car.jpg" alt="Crashed Car Picture">
+                    </a>
+                    <figcaption>Table</figcaption>
+                </figure>
+                <figure>
+                    <a target="" href="feedback.html">
+                        <img src="../thumbnails/train.jpg" alt="A Moving Train on Rails Picture">
+                    </a>
+                    <figcaption>Feedback</figcaption>
+                </figure>
+            </div>
+        </menu>
+
+        <main class="magic">
+            <h2>Customer Feedback</h2>
+            <form>
+                <fieldset>
+                    <legend>From</legend>
+                    <div class="field">
+                        <label for="customerName">Name: </label>
+                        <input type="text" name="customerName" id="customerName">
+                    </div>
+                    <div class="field">
+                        <label for="customermail">Email: </label>
+                        <input type="text" name="customermail" id="customermail">
+                    </div>
+                    <div class="field">
+                        <label for="colours">Choose a colour:</label>
+                        <select name="colours" id="colours">
+                            <option value="">-- select a colour --</option>
+                            <optgroup label="Warm Colours">
+                                <option value="red">Red</option>
+                                <option value="orange">Orange</option>
+                                <option value="yellow">Yellow</option>
+                            </optgroup>
+                            <optgroup label="Cool Colours">
+                                <option value="blue">Blue</option>
+                                <option value="green">Green</option>
+                                <option value="purple">Purple</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="houses">Which House In Harry Potter that You Love:</label></br>
+                        <select name="houses" id="houses" multiple>
+                            <option value="gryffindor">Gryffindor</option>
+                            <option value="hufflepuff">Hufflepuff</option>
+                            <option value="ravenclaw">Ravenclaw</option>
+                            <option value="slytherin">Slytherin</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="message">Please provide your suggestion in the box below: </label>
+                        <textarea name="message" id="message" cols="50" rows="7"></textarea>
+                    </div>
+                    <div class="reset">
+                        <button type="reset">Reset</button>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+
+        <aside class="sidebar">
+            <form tabindex="1">
+                <fieldset>
+                    <legend>Website Feedback</legend>
+                    <div class="field">
+                        <label for="favorite">My Website is: </label>
+                    </div>
+                    <div class="field">
+                        <input type="checkbox" name="favorite" id="fun" value="fun">
+                        <label for="fun">Fun to Visit</label>
+                    </div>
+                    <div class="field">
+                        <input type="checkbox" name="favorite" id="design" value="wellDesign">
+                        <label for="design">Well Designed</label>
+                    </div>
+                    <div class="field">
+                        <input type="checkbox" name="favorite" id="color" value="goodColor">
+                        <label for="color">Uses Good Colours</label>
+                    </div>
+                    <div class="field">
+                        <input type="checkbox" name="favorite" id="read" value="easyRead">
+                        <label for="color">Easy to Read</label>
+                    </div>
+
+                    <div class="field">
+                        <label for="visit">Will you Visit my Site Again: </label>
+                    </div>
+                    <div class="visitContainer">
+                        <div class="visit">
+                            <input type="radio" name="visit" id="visitYes">
+                            <label for="visitYes"> - Yes</label>
+                        </div>
+                        <div class="visit">
+                            <input type="radio" name="visit" id="visitNo">
+                            <label for="visitNo"> - No</label>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </aside>
+
+        <footer>
+            &copy; Copyright Suju Karen Tan, 2022
+        </footer>
+    </div>
+</body>
+
+</html>
